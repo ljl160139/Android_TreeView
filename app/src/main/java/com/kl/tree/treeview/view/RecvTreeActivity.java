@@ -32,7 +32,6 @@ public class RecvTreeActivity extends AppCompatActivity {
         setContentView(R.layout.recv_tree_activity);
 
         initData();
-        System.out.println("mdasize="+mDatas.size());
         mAdapter = new ContactRecvAdapter(this, mDatas);
         mRecv = (RecyclerView) findViewById(R.id.recv_content);
         mRecv.setLayoutManager(new LinearLayoutManager(this));
