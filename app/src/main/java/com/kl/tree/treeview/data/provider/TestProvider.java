@@ -104,7 +104,7 @@ public final class TestProvider extends ContentProvider {
         DatabaseHelper(Context context, String name) {
             super(context, name, null, DATABASE_VERSION);
 
-            if(!new File(DBHelper.getInstance().getDbPath()+DBHelper.DB_NAME).exists()){
+            if(!new File(DBHelper.getInstance().getDbPath()).exists()){
                 DBHelper.getInstance().formeDb();
             }
 

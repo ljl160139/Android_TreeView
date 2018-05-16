@@ -32,7 +32,7 @@ public class DBHelper {
     public void formeDb(){
         try {
             Log.d(TAG,"formeDb");
-            FileUtils.saveFileByIn(CustomerApp.getApplication().getAssets().open(DB_NAME), getDbPath(), DB_NAME);
+            FileUtils.saveFileByIn(CustomerApp.getApplication().getAssets().open(DB_NAME), getDbPath());
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -40,17 +40,10 @@ public class DBHelper {
 
 
     public String getDbPath(){
-        String databasePath = "/data/data/";
-        databasePath = databasePath + CustomerApp.getApplication().getPackageName() + "/databases/";
-
+        /*String databasePath = "/data/data/";
+        databasePath = databasePath + CustomerApp.getApplication().getPackageName() + "/databases/";*/
+        String databasePath=CustomerApp.getApplication().getDatabasePath(DB_NAME).getAbsolutePath();
         Log.d(TAG,databasePath);
         return databasePath;
     }
-
-
-
-
-
-
-
 }

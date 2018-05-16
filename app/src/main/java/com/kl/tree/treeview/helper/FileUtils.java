@@ -17,6 +17,11 @@ public class FileUtils {
     private static final String TAG = FileUtils.class.getSimpleName();
 
 
+    public static void saveFileByIn(InputStream ins, String path ) {
+        saveFileByIn(ins, path, 100 * 1024);
+    }
+
+
     public static void saveFileByIn(InputStream ins, String dir, String name) {
         String path;
         if (dir.endsWith("/")) {
