@@ -11,6 +11,7 @@ public class Node<T extends BaseDir,K extends BaseLeaf> {
     private int level=0;        //tree level
     private Node parentNode;      //parent node
 
+
     /**
      * root dir object
      * @param dir
