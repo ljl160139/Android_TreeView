@@ -6,9 +6,9 @@ import android.view.View;
 import android.widget.ExpandableListView;
 
 import com.kl.tree.library.adapter.BaseTreeExpandableAdapter;
-import com.kl.tree.library.domain.BaseDir;
-import com.kl.tree.library.domain.BaseLeaf;
-import com.kl.tree.library.domain.Node;
+import com.kl.tree.library.model.BaseDir;
+import com.kl.tree.library.model.BaseLeaf;
+import com.kl.tree.library.model.Node;
 
 
 /**

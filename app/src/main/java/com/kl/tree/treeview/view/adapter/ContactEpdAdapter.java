@@ -7,7 +7,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.kl.tree.library.adapter.BaseTreeExpandableAdapter;
-import com.kl.tree.library.domain.Node;
+import com.kl.tree.library.model.Node;
 import com.kl.tree.treeview.data.module.ContactDir;
 import com.kl.tree.treeview.data.module.ContactLeaf;
 import com.kl.tree.treeview.R;

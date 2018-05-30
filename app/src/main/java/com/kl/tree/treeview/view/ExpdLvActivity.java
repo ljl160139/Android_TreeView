@@ -5,7 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.widget.ExpandableListView;
 
 import com.kl.tree.library.TreeExpandableListView;
-import com.kl.tree.library.domain.Node;
+import com.kl.tree.library.model.Node;
 import com.kl.tree.treeview.R;
 import com.kl.tree.treeview.data.ContactDao;
 import com.kl.tree.treeview.data.module.ContactDir;

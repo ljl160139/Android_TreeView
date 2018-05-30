@@ -6,9 +6,9 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.kl.tree.library.RecvHolder;
-import com.kl.tree.library.domain.BaseDir;
-import com.kl.tree.library.domain.BaseLeaf;
-import com.kl.tree.library.domain.Node;
+import com.kl.tree.library.model.BaseDir;
+import com.kl.tree.library.model.BaseLeaf;
+import com.kl.tree.library.model.Node;
 
 import java.util.List;
 

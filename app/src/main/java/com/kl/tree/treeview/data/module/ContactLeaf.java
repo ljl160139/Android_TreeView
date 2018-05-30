@@ -1,7 +1,7 @@
 package com.kl.tree.treeview.data.module;
 
 
-import com.kl.tree.library.domain.BaseLeaf;
+import com.kl.tree.library.model.BaseLeaf;
 
 /**
  * Created by kl on 16-10-10.

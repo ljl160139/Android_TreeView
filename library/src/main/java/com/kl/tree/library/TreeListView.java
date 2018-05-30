@@ -7,9 +7,9 @@ import android.widget.AdapterView;
 import android.widget.ListView;
 
 import com.kl.tree.library.adapter.BaseTreeAdapter;
-import com.kl.tree.library.domain.BaseDir;
-import com.kl.tree.library.domain.BaseLeaf;
-import com.kl.tree.library.domain.Node;
+import com.kl.tree.library.model.BaseDir;
+import com.kl.tree.library.model.BaseLeaf;
+import com.kl.tree.library.model.Node;
 
 
 /**
